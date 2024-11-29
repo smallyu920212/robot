@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("IMG_4058.JPG"); /* 使用图片文件的名称 */
+    background-image: url("../images/IMG_4058.JPG"); /* 使用图片文件的名称 */
     background-size: cover; /* 背景图片覆盖整个页面 */
     background-position: center; /* 背景图居中 */
     background-repeat: no-repeat; /* 防止背景图重复 */
@@ -33,7 +33,6 @@ html, body {
 nav .midd a {
     color: white; /* 設置文字顏色為白色 */
     text-decoration: none; /* 移除底線 */
-    text-align: center; /* 將文字居中 */
     display: block; /* 確保文字居中時的效果 */
 }
 
