@@ -70,7 +70,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
+function closeForm() {
+    // 跳轉到 register.html
+    window.location.href = "register.html";
+}
 
 
 
