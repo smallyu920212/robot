@@ -1,0 +1,115 @@
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("IMG_4058.JPG"); /* 使用图片文件的名称 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center; /* 背景图居中 */
+    background-repeat: no-repeat; /* 防止背景图重复 */
+    height: 100%; /* 确保背景图覆盖页面高度 */
+    display: flex;
+    flex-direction: column;
+}
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 登入容器 */
+.login-container {
+    flex: 1; /* 保证内容区域占据剩余高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+nav .midd a {
+    color: white; /* 設置文字顏色為白色 */
+    text-decoration: none; /* 移除底線 */
+    text-align: center; /* 將文字居中 */
+    display: block; /* 確保文字居中時的效果 */
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 按鈕樣式 */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* 註冊連結 */
+.register {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.register a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+/* 頁腳樣式 */
+.footer {
+    background: #acd6ff;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 14px;
+    flex-shrink: 0; /* 防止被压缩 */
+    width: 100%; /* 确保页脚满版 */
+    box-sizing: border-box;
+}
